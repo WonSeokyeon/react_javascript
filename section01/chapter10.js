@@ -10,7 +10,7 @@ const animal = {
   func2: function () {
     console.log(`${this.type}`);
   },
-
+  // 화살표함수(주의: 화살표함수안에 사용되는 thois.는 윈도우 객체를 가리킨다.)
   func3: () => console.log(`${animal.name}`),
 };
 
