@@ -5,3 +5,5 @@ let Object2={...Object1}
  }else{console.log("깊은복사")}
 
 console.log(JSON.stringify(Object1)+"문자열이야")
+console.log(JSON.stringify(Object1)+"문자열이야")
+console.log(JSON.stringify(Object1)+"문자열이야")
