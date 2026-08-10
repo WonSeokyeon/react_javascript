@@ -1,0 +1,74 @@
+.notice-detail {
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.detail-header {
+  border-bottom: 2px solid #333;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.detail-header h2 {
+  margin: 0 0 12px 0;
+  font-size: 24px;
+  color: #222;
+}
+
+.detail-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.detail-content {
+  min-height: 300px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+  padding: 12px 0;
+}
+
+/* 하단 버튼 영역 */
+.detail-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* 수정하기/삭제하기 버튼 사이 간격 */
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+/* 수정하기 버튼 */
+.btn-edit {
+  padding: 10px 24px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #218838;
+}
+
+/* 삭제하기 버튼 */
+.btn-delete {
+  padding: 10px 24px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,114 @@
+.notice-home {
+  padding: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 상단 영역: 양끝 정렬 */
+.home-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* 정렬 셀렉트 박스 스타일 */
+.sort-select {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+}
+
+.sort-select:focus {
+  border-color: #007bff;
+}
+
+.write-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notice-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notice-item {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.notice-item:hover {
+  background-color: #f9f9f9;
+}
+
+.notice-item-main {
+  width: 100%;
+}
+
+.notice-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.notice-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+}
+
+.notice-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.notice-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.delete-btn {
+  padding: 4px 8px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.notice-item-sub {
+  display: flex;
+  gap: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.notice-author {
+  font-weight: 500;
+  color: #333;
+}
+
+.notice-preview {
+  margin: 0;
+  color: #666;
+}
